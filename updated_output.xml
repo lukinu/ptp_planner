@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2" xmlns:ns1="http://astrawireless.com/kml">
+	<ns0:Document>
+		<ns0:ExtendedData>
+			<ns1:json>{"appVersion":"f4eb57c","appVersionFull":"f4eb57c","linksArray":[{"terrainType":"AVERAGE","climateType":"NORMAL","frequencies":{"start":2990,"end":4010},"band":3500,"transmissionType":"SINGLE_CARRIER","bandwidth":20,"goal":{"type":"DISTANCE","value":30000},"txPowerLimit":"Infinity","temperature":20,"totalAirPressure":760,"humidity":60,"startSite":{"id":9670,"name":"A","location":null,"antennaHeight":10,"deviceProductKey":null,"antennaPartNumber":null,"rfCablePartNumber":null,"relocationLocked":false,"interference":"-Infinity","temperature":293.15,"powerLimit":null},"endSite":{"id":9669,"name":"B","location":null,"antennaHeight":10,"deviceProductKey":null,"antennaPartNumber":null,"rfCablePartNumber":null,"relocationLocked":false,"interference":"-Infinity","temperature":293.15,"powerLimit":null}},{"terrainType":"AVERAGE","climateType":"NORMAL","frequencies":{"start":2990,"end":4010},"band":3500,"transmissionType":"SINGLE_CARRIER","bandwidth":20,"goal":{"type":"DISTANCE","value":30000},"txPowerLimit":"Infinity","temperature":20,"totalAirPressure":760,"humidity":60,"startSite":{"id":9672,"name":"C","location":{"latitude":14.1440346687,"longitude":-16.1804656197},"antennaHeight":10,"deviceProductKey":null,"antennaPartNumber":null,"rfCablePartNumber":null,"relocationLocked":false,"interference":"-Infinity","temperature":293.15,"powerLimit":null},"endSite":{"id":9671,"name":"D","location":{"latitude":14.1946320737,"longitude":-16.0912017037},"antennaHeight":10,"deviceProductKey":null,"antennaPartNumber":null,"rfCablePartNumber":null,"relocationLocked":false,"interference":"-Infinity","temperature":293.15,"powerLimit":null}}],"sitesArray":[{"id":9670,"name":"A","location":null,"antennaHeight":10,"deviceProductKey":null,"antennaPartNumber":null,"rfCablePartNumber":null,"relocationLocked":false,"interference":"-Infinity","temperature":293.15,"powerLimit":null},{"id":9669,"name":"B","location":null,"antennaHeight":10,"deviceProductKey":null,"antennaPartNumber":null,"rfCablePartNumber":null,"relocationLocked":false,"interference":"-Infinity","temperature":293.15,"powerLimit":null},{"id":9672,"name":"C","location":{"latitude":14.1440346687,"longitude":-16.1804656197},"antennaHeight":10,"deviceProductKey":null,"antennaPartNumber":null,"rfCablePartNumber":null,"relocationLocked":false,"interference":"-Infinity","temperature":293.15,"powerLimit":null},{"id":9671,"name":"D","location":{"latitude":14.1946320737,"longitude":-16.0912017037},"antennaHeight":10,"deviceProductKey":null,"antennaPartNumber":null,"rfCablePartNumber":null,"relocationLocked":false,"interference":"-Infinity","temperature":293.15,"powerLimit":null}],"obstaclesArray":[],"project":{"id":1287,"name":"New Project","type":"PTP","regulation":"WORLDWIDE","unitSystem":"METRIC","settings":{"ptmp":{"visible":true}},"updatedDatetime":"2025-07-24T11:46:53.579Z","eirpInfo":{"otherLimit":50,"freqLimits":[]}}}</ns1:json>
+		</ns0:ExtendedData>
+		<ns0:name>New_Project</ns0:name>
+		<ns0:open>1</ns0:open>
+		<ns0:Style id="lineStyle">
+			<ns0:LineStyle>
+				<ns0:color>ff88dd88</ns0:color>
+				<ns0:width>3</ns0:width>
+			</ns0:LineStyle>
+		</ns0:Style>
+		<ns0:Folder>
+			<ns0:name>Site C - Site D</ns0:name>
+			<ns0:Placemark>
+				<ns0:name>Path</ns0:name>
+				<ns0:styleUrl>#lineStyle</ns0:styleUrl>
+				<ns0:LineString>
+					<ns0:coordinates>-16.1804656197,14.1440346687,10 -16.0912017037,14.1946320737,10</ns0:coordinates>
+					<ns0:altitudeMode>relativeToGround</ns0:altitudeMode>
+				</ns0:LineString>
+			</ns0:Placemark>
+			<ns0:Placemark>
+				<ns0:name>Ground path</ns0:name>
+				<ns0:styleUrl>#groundStyle</ns0:styleUrl>
+				<ns0:LineString>
+					<ns0:coordinates>-16.1804656197,14.1440346687,0 -16.0912017037,14.1946320737,0</ns0:coordinates>
+				</ns0:LineString>
+			</ns0:Placemark>
+			<ns0:Placemark id="site_9672">
+				<ns0:name>Site C</ns0:name>
+				<ns0:styleUrl>#antenna</ns0:styleUrl>
+				<ns0:description>&lt;b&gt;Pointing at:&lt;/b&gt; &lt;a href="#site_9671"&gt;Site D&lt;/a&gt;&lt;br&gt;&lt;b&gt;Antenna height:&lt;/b&gt; 10m</ns0:description>
+				<ns0:Point>
+					<ns0:extrude>1</ns0:extrude>
+					<ns0:altitudeMode>relativeToGround</ns0:altitudeMode>
+					<ns0:coordinates>-16.1804656197,14.1440346687,10</ns0:coordinates>
+				</ns0:Point>
+			</ns0:Placemark>
+			<ns0:Placemark id="site_9671">
+				<ns0:name>Site D</ns0:name>
+				<ns0:styleUrl>#antenna</ns0:styleUrl>
+				<ns0:description>&lt;b&gt;Pointing at:&lt;/b&gt; &lt;a href="#site_9672"&gt;Site C&lt;/a&gt;&lt;br&gt;&lt;b&gt;Antenna height:&lt;/b&gt; 10m</ns0:description>
+				<ns0:Point>
+					<ns0:extrude>1</ns0:extrude>
+					<ns0:altitudeMode>relativeToGround</ns0:altitudeMode>
+					<ns0:coordinates>-16.0912017037,14.1946320737,10</ns0:coordinates>
+				</ns0:Point>
+			</ns0:Placemark>
+		</ns0:Folder>
+	</ns0:Document>
+<new_data>Some new information</new_data></ns0:kml>
