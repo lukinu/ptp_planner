@@ -1,0 +1,110 @@
+{
+	"appVersion": "f4eb57c",
+	"appVersionFull": "f4eb57c",
+	"linksArray": [
+		{
+			"terrainType": "AVERAGE",
+			"climateType": "NORMAL",
+			"frequencies": {
+				"start": 4850,
+				"end": 6050
+			},
+			"band": 5450,
+			"transmissionType": "SINGLE_CARRIER",
+			"bandwidth": 10,
+			"goal": {
+				"type": "DISTANCE",
+				"value": 30000
+			},
+			"txPowerLimit": "Infinity",
+			"temperature": 0.15000000596046449,
+			"totalAirPressure": 900.25,
+			"humidity": 90,
+			"startSite": {
+				"id": 814966,
+				"name": "ÇİM-NAK",
+				"location": {
+					"latitude": 40.7797151668,
+					"longitude": 29.5982600517
+				},
+				"antennaHeight": 17,
+				"deviceProductKey": "Quanta 5#Q5-23",
+				"antennaPartNumber": null,
+				"rfCablePartNumber": null,
+				"relocationLocked": false,
+				"interference": "-Infinity",
+				"temperature": 293.1499938964844,
+				"powerLimit": null
+			},
+			"endSite": {
+				"id": 814965,
+				"name": "kamera diregi",
+				"location": {
+					"latitude": 40.7905567792,
+					"longitude": 29.5967539525
+				},
+				"antennaHeight": 15,
+				"deviceProductKey": "Quanta 5#Q5-23",
+				"antennaPartNumber": null,
+				"rfCablePartNumber": null,
+				"relocationLocked": false,
+				"interference": "-Infinity",
+				"temperature": 293.1499938964844,
+				"powerLimit": null
+			}
+		}
+	],
+	"sitesArray": [
+		{
+			"id": 814966,
+			"name": "ÇİM-NAK",
+			"location": {
+				"latitude": 40.7797151668,
+				"longitude": 29.5982600517
+			},
+			"antennaHeight": 17,
+			"deviceProductKey": "Quanta 5#Q5-23",
+			"antennaPartNumber": null,
+			"rfCablePartNumber": null,
+			"relocationLocked": false,
+			"interference": "-Infinity",
+			"temperature": 293.1499938964844,
+			"powerLimit": null
+		},
+		{
+			"id": 814965,
+			"name": "kamera diregi",
+			"location": {
+				"latitude": 40.7905567792,
+				"longitude": 29.5967539525
+			},
+			"antennaHeight": 15,
+			"deviceProductKey": "Quanta 5#Q5-23",
+			"antennaPartNumber": null,
+			"rfCablePartNumber": null,
+			"relocationLocked": false,
+			"interference": "-Infinity",
+			"temperature": 293.1499938964844,
+			"powerLimit": null
+		}
+	],
+	"obstaclesArray": [],
+	"project": {
+		"id": 81530,
+		"name": "Burkina-Faso (import)",
+		"type": "PTP",
+		"regulation": "WORLDWIDE",
+		"unitSystem": "METRIC",
+		"settings": {
+			"ptmp": {
+				"visible": true
+			}
+		},
+		"updatedDatetime": "2025-08-15T11:16:48.558657Z",
+		"eirpInfo": {
+			"otherLimit": 50,
+			"freqLimits": []
+		},
+		"createNew": 0
+	}
+}
